@@ -12,7 +12,7 @@ jobs:
   build-and-publish:
     runs-on: ubuntu-latest
     permissions:
-      # IMPORTANT: this permission is mandatory for trusted publishing.
+      # IMPORTANT: this permission is mandatory for trusted publishing
       id-token: write
     steps:
     - name: Checkout
